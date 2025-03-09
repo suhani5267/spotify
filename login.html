@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; background-color: black; color: white; }
+        .login-container { margin-top: 100px; }
+        input, button { margin: 10px; padding: 8px; width: 250px; }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Admin Login</h2>
+        <form id="login-form">
+            <input type="email" id="email" placeholder="Enter Admin Email" required><br>
+            <input type="password" id="password" placeholder="Enter Password" required><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script type="module" src="firebase.js"></script>
+</body>
+</html>

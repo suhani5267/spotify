@@ -1,3 +1,7 @@
+
+
+
+
 const songs = [
   {
     title: "Backbite",
@@ -34,6 +38,42 @@ const songs = [
     artist: "Villen",
     file: "./assets/song/Main_Tuta_Hua_Gilas,_Mujhme_Jaam_Bhare_Kyu_Kamakhya,_Churake_Song.mp3",
     cover: "./assets/image/tuta hua.jpg"
+    },
+  {
+    title: "Udaariya",
+    artist: "Sitander",
+    file: "./assets/song/Udaarian_Badi_lambi_hai_kahani_mere_pyaar_di_Satinder_Sartaaj_Love.mp3",
+    cover: "./assets/image/uddariya.jpg"
+  },
+  {
+    title: "Softly",
+    artist: "Karan Aujla",
+    file: "./assets/song/SOFTLY_Official_Music_Video_KARAN_AUJLA_IKKY_LATEST_PUNJABI_SONGS.mp3",
+    cover: "./assets/image/karan.jpeg"
+  },
+  {
+    title: "Chann sitare ",
+    artist: "Ammy Virk",
+    file: "./assets/song/Ammy_Virk_WANG_DA_NAAP_Official_Video_ft_Sonam_Bajwa_Muklawa48k.mp3",
+    cover: "./assets/image/ammy.jpeg"
+  },
+  {
+    title: "Rosa lin",
+    artist: "Fran",
+    file: "./assets/song/Rosa_Linn_-_Snap_-__Official_Eurovision_Music_Video_(48k).mp3",
+    cover: "./assets/image/images.jpeg"
+  },
+  {
+    title: "JHOL",
+    artist: "Coke Studio",
+    file: "./assets/song/Panjeb_Official_Video_Layers_Ammy_Virk_Tanu_Grewal_Jaymeet_Rony.mp3",
+      cover: "./assets/image/ammy.jpeg"
+  },
+  {
+    title: "Ve_Hanniyaan",
+    artist: "Villen",
+    file: "./assets/song/Ve_Haaniyaan_Official_Video_Ravi_Dubey_Sargun_Mehta_Danny_Avvy_Sra.mp3",
+    cover: "./assets/image/images.jpeg"
   }
 ];
 

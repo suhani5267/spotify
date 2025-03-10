@@ -186,6 +186,7 @@ align-items: center;
    display: flex;
    justify-content: center;
    align-items: center;
+   
 }
 .album{
    width: 25%;
@@ -244,3 +245,36 @@ margin-top: -6px;
  .box{
    margin-bottom: 1em;
  }
+
+
+ /* /songs  */
+
+ .song-item{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ @media (max-width: 1024px) {
+  .song-item {
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items to the start */
+    width: 95%; /* Increase width */
+    max-width: 800px; /* Set a larger max width */
+  }
+}
+
+/* For mobile screens */
+@media (max-width: 480px) {
+  .song-item {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+
+
+    .cards-img{
+      width: 100px;
+      height: 100px;
+    }
